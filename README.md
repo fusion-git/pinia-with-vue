@@ -1,33 +1,33 @@
-# pinia-tasks
+# Pinia with vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This project run in a Node enviroment, if you don't have already insalled on your machine [Node Js](https://nodejs.org/en). Version used for this project 20.17.0 LTS. <br /> <br /> 
 
-## Recommended IDE Setup
+For setup open the terminal and run the fallowing commands: 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Project setup
+```
+npm install
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-If you don't have node in your machine (https://nodejs.org/en). Version used for this project 20.17.0 LTS.
-
-Open terminal in root folder and run 'npm install'. This command will download all necessary files for this project.
-
-After the installation is finishd, type 'npm run database'. Spin-up a fake rest-full APi endpoint.
-
-Open a new terminal and type 'npm run dev'.
-
-### Compile and Hot-Reload for Development
-
-```sh
+### Spin-up a fake restAPI endpoint to act like a database
+```
+npm run database
+```
+   Next command need to run in a new terminal without closing the previous one
+### Compiles and hot-reloads for development
+```
 npm run dev
 ```
+![imgage alt](image url)
 
-### Compile and Minify for Production
+## Aditional commands
 
-```sh
+### Compiles and minifies for production
+```
 npm run build
 ```
+### Preview the production bundle
+```
+npm run preview
+```
+
