@@ -18,7 +18,7 @@ npm run database
 ```
 npm run dev
 ```
-![imgage alt](image url)
+![imgage alt](https://github.com/fusion-git/pinia-with-vue/blob/f4cee6aa8bd8b78eb393616b600580c6f2b18f32/Screenshot.png)
 
 ## Aditional commands
 
